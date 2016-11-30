@@ -21,27 +21,38 @@ footer{
 
 }
 
-section.main-area{
-  /*margin-top: 150px;*/
+.main-area{
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 
-section.main-area p{
+section p{
+  margin-bottom: 30px;
   color: white;
 }
 
-.main-container{
+.post-container{
   width: 150px;
   height: 150px;
-  background: #676767;
+  /*background: #676767;*/
 }
 
-.main-container p{
-  padding: 20px;
-  width: 100%;
+.post-container p{
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 11px;
+  /*width: 100%;*/
+  text-align: center;
   /*margin: 0 auto;*/
 }
 
-.Post{
+.images.gallery{
+  padding-top: 10px;
+  width: 100px;
+
+}
+
+.Posts{
   margin: 15px;
 }
 
@@ -81,10 +92,12 @@ main{
     /*border-bottom-right-radius: 5px;*/
 }
 
-.submit {
+.submit.button {
+    float: right;
     background-color: #4CAF50;
-    padding: 14px 35px 15px 35px;
-    margin: -15px -35px;
+    padding: 12px 35px 16px 35px;
+    margin: -34px;
+    margin-right: -15px;
 }
 
 h1{

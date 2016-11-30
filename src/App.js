@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
           <header id="top" className = "container-fluid">
-            <div className="logo col-xs-12 col-sm-1">
+            <div className="logo col-xs-1 col-sm-1">
               <h1><a className="logo" href="#">.GIFfy</a></h1>
             </div>
             <div className="col-xs-12 col-sm-11">
@@ -20,27 +20,23 @@ class App extends Component {
                 <li><a href="#">Home</a></li>
                 <li><a href="#">New</a></li>
                 <li><a href="#">Top</a></li>
+                <li><a href="#">Random</a></li>
                 <li><a href="#">About</a></li>
-                <li className ="last"> <a href="upload.php" type="submit" className="submit button">Submit</a></li>
               </ul>
             </div>
+            <div>
+              <a href="upload.php" type="submit" className="submit button">Submit</a>
+            </div>
+
+
           </header>
 
-          <main className ="container-fluid">
-            <section className="main-area">
+          <main className ="main-area container-fluid">
+            <section>
 
-               <Post />
-               <Post />
-               <Post />
-               <Post />
-               <Post />
-               <Post />
-               <Post />
                <Post />
        
             </section>
-
-            
          
           </main>
 
